@@ -3,16 +3,6 @@
 ## 📌 Description  
 **FoSec Platform** is a full-stack web application designed to enhance food security in Africa by connecting farmers, buyers, and policymakers with real-time market data and streamlined transactions. The platform leverages modern web technologies to ensure accessibility, efficiency, and data-driven decision-making.  
 
-## 📂 Repository Structure  
-```bash
-/FoSec-Platform
-│── frontend/        
-│── backend/         
-│── database/        
-│── docs/            
-│── README.md        
-```
-
 ## 🚀 Features  
 - **User-friendly Interface** – Responsive design with a seamless user experience.  
 - **Real-time Market Data** – Access to up-to-date pricing and availability of agricultural products.  
