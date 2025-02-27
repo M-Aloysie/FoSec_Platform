@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#16A34A" />
+    <meta name="description" content="FoSec - Empowering farmers with real-time market data and policy insights." />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>FoSec - Food Security Platform</title>
+    
+    <style>
+      /* Loading animation before React renders */
+      #loader {
+        animation: fadeIn 1s ease-in-out infinite alternate;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0.4; }
+        to { opacity: 1; }
+      }
+    </style>
+  </head>
+  <body class="bg-green-100 flex flex-col items-center justify-center min-h-screen">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Preloader Animation Before React Renders -->
+    <div id="preloader" class="flex flex-col items-center justify-center h-screen">
+      <h1 id="loader" class="text-3xl font-bold text-green-700">🌿 Loading FoSec...</h1>
+    </div>
+
+    <div id="root" class="hidden"></div>
+
+    <script>
+      // Hide preloader when React fully loads
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("preloader").style.display = "none";
+        document.getElementById("root").classList.remove("hidden");
+      });
+    </script>
+  </body>
+</html>
