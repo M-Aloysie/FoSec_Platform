@@ -1,0 +1,17 @@
+{
+  "development": {
+    "url": "postgres://postgres:Lucky@2002@localhost:5436/Fosec",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "url": "postgres://postgres:Lucky@2002@localhost:5436/Fose",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "url": "postgres://postgres:Lucky@2002@localhost:5436/Fo",
+    "dialect": "postgres",
+    "logging": false
+  }
+}
