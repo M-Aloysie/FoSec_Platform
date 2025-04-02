@@ -23,7 +23,7 @@ app.use(cors({
 }));
 
 // app.use(cors({
-//   origin: ['http://localhost:3001/', 'https://she-path-front.vercel.app'],
+//   origin: ['http://localhost:3001/', 'https://fo-sec-platform.vercel.app/'],
 //   credentials: true
 // }));
 
