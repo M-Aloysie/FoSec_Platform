@@ -20,7 +20,7 @@ function EmpowermentSection() {
     { title: "Microloans", desc: "Funding for your farm.", link: "/loan"}, 
     { title: "Insurance", desc: "Secure your crops."}, 
     { title: "Training", desc: "Modern techniques."}, 
-    { title: "Feedback", desc: "Shape policies.",},
+    { title: "Feedback", desc: "Shape policies."},
   ];
 
   return (
@@ -38,7 +38,6 @@ function EmpowermentSection() {
             className="empowerment-card"
             onClick={() => handleCardClick(index)}
           >
-            <motion.img src={item.img} alt={`${item.title} Icon`} className="card-icon" whileHover={{ scale: 1.2, rotate: 15 }} transition={{ duration: 0.4 }} />
             <h3 className="card-title">{item.title}</h3>
             <p className="card-desc">{item.desc}</p>
             {item.link && <Link to={item.link} className="card-link">Learn More</Link>}

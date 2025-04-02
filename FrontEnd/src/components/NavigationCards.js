@@ -17,9 +17,9 @@ function NavigationCards() {
   };
 
   const cards = [
-    { to: "/farmers", text: "For Farmers", img: "/images/farmer1.jpeg" },
-    { to: "/products", text: "Explore Products", img: "/images/product-icon.png" },
-    { to: "/buyers", text: "For Buyers", img: "/images/buyer-icon.png" },
+    { to: "/farmers", text: "For Farmers" },
+    { to: "/products", text: "Explore Products" },
+    { to: "/buyers", text: "For Buyers" },
   ];
 
   return (
@@ -35,7 +35,6 @@ function NavigationCards() {
           className="card"
           onClick={() => handleCardClick(index)}
         >
-          <motion.img src={btn.img} alt={`${btn.text} Icon`} className="card-icon" whileHover={{ rotate: 360 }} transition={{ duration: 0.8 }} />
           <Link to={btn.to} className="card-link">{btn.text}</Link>
         </motion.div>
       ))}
