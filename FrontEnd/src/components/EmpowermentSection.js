@@ -17,10 +17,10 @@ function EmpowermentSection() {
   };
 
   const items = [
-    { title: "Microloans", desc: "Funding for your farm.", img: "/images/loan-icon.png" },
-    { title: "Insurance", desc: "Secure your crops.", img: "/images/shield-icon.png" },
-    { title: "Training", desc: "Modern techniques.", img: "/images/book-icon.png" },
-    { title: "Feedback", desc: "Shape policies.", img: "/images/feedback-icon.png", link: "/feedback" },
+    { title: "Microloans", desc: "Funding for your farm.",image : "/images/leaf.jpg", link: "/loan"}, 
+    { title: "Insurance", desc: "Secure your crops."}, 
+    { title: "Training", desc: "Modern techniques."}, 
+    { title: "Feedback", desc: "Shape policies.",},
   ];
 
   return (

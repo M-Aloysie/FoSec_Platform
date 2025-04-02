@@ -17,7 +17,7 @@ function NavigationCards() {
   };
 
   const cards = [
-    { to: "/farmers", text: "For Farmers", img: "/images/farmer-icon.png" },
+    { to: "/farmers", text: "For Farmers", img: "/images/farmer1.jpeg" },
     { to: "/products", text: "Explore Products", img: "/images/product-icon.png" },
     { to: "/buyers", text: "For Buyers", img: "/images/buyer-icon.png" },
   ];

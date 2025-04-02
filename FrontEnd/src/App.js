@@ -20,6 +20,7 @@ import CallToAction from './components/CallToAction';
 import NavigationCards from './components/NavigationCards';
 import EmpowermentSection from './components/EmpowermentSection';
 import Footer from './components/Footer';
+import './index.css';
 
 function App() {
   return (
