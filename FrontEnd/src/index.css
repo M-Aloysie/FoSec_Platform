@@ -632,7 +632,7 @@ body {
   50% { transform: scale(1.1); }
   100% { transform: scale(1); }
 }
-// Add this to your existing index.css
+
 
 /* Header Stats */
 .stats {
@@ -658,7 +658,7 @@ transition: transform 0.3s;
 transform: scale(1.05);
 }
 
-// Add these to your existing index.css
+
 
 body {
 background: linear-gradient(135deg, #e9f5db 0%, #95d5b2 100%);
@@ -885,7 +885,7 @@ font-weight: 600;
   grid-template-columns: repeat(3, 1fr);
 }
 }
-// Add these to your existing index.css
+
 
 .role-selector {
 margin: 1rem 0;
