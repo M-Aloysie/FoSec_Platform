@@ -28,7 +28,7 @@ function Signup() {
         Sign Up
       </motion.h1>
       <motion.p className="page-subtitle" whileHover={{ scale: 1.05 }}>
-        Join the FoSec Africa community.
+        Join the FoSec community.
       </motion.p>
       <form className="auth-form" onSubmit={handleSignup}>
         <motion.input

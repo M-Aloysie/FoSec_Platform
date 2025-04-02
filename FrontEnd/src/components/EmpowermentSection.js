@@ -17,7 +17,7 @@ function EmpowermentSection() {
   };
 
   const items = [
-    { title: "Microloans", desc: "Funding for your farm.",image : "/images/leaf.jpg", link: "/loan"}, 
+    { title: "Microloans", desc: "Funding for your farm.", link: "/loan"}, 
     { title: "Insurance", desc: "Secure your crops."}, 
     { title: "Training", desc: "Modern techniques."}, 
     { title: "Feedback", desc: "Shape policies.",},

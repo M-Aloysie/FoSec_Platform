@@ -34,7 +34,6 @@
 }
 
 .header-bg::after {
-  content: " color palette";
   color: black;
   position: absolute;
   position: absolute;

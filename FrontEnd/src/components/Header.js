@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-function Header({ title = "FoSec Africa", subtitle = "Welcome to FoSec Africa", stats = [] }) {
+function Header({ title = "FoSec Africa", subtitle = "Welcome to FoSec Platform", stats = [] }) {
   return (
     <motion.div 
       className="header-section" 

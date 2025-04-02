@@ -8,8 +8,8 @@ import Footer from "./Footer";
 function Home() {
   return (
     <div className="home-container" background-image url="/images/leaf.jpg">
-      <div className="content-wrapper" background-image url="/images/leaf.jpg">
-        <Header 
+      <div className="content-wrapper"> 
+        <Header
           title="FoSec Platform"
           subtitle="Empowering smallholder farmers to fight food insecurity in Sub-Saharan Africa."
           stats={["Market Access", "Financial Support", "Training & Education"]}
